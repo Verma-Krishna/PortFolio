@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.About {
+  display: flex;
+  padding: 15px 0px;
+  margin-top: 5px;
+  background-color: rgba(249, 248, 248, 0.763);
+  
+}
+
+.about-personal {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 60vw;
+  height: 60vh;
+  background-color: rgba(168, 164, 164, 0.27);
+}
+
+
+.about-para-p:nth-child(3) {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: -12px;
+  border-radius:5px;
+}
+
+.about-para-p:nth-child(1) {
+  width: 9vw;
+  font-weight: 300;
+  font-size: 20px;
+  border-radius:5px;
+}
+
+.about-para-p:nth-child(4) {
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: -5px;
+  border-radius:5px;
+}
+
+.about-para-p:nth-child(2) {
+  width: 25vw;
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: -5px;
+  border-radius:5px;
+}
+
+ 
+.about-hero img {
+  
+  border-radius: 50%;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.about-hero{
+  width: 40vw;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+.about-para p {
+  font-weight: 200;
+}
+
+.about-para {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ padding: 15px;
+ margin-top: 20px;
+ font-family: "Poppins", sans-serif;
+ color:#2999ee;
+}
+
+.about-head {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 10px 0;
+  
+}
+
+.about-head span{ 
+    border-bottom: #000000 solid 3px;
+}
+.about-hover{
+  transition: transform .2s;
+}
+
+.about-hover:hover{
+  transform: scale(1.1);
+}

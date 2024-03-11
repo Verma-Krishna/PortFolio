@@ -1,0 +1,91 @@
+.services-head{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 35px;
+}
+
+.services-head span{
+    border-bottom: 3px solid black;
+     
+}
+.content-services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.combine-box:hover {
+    transform: scale(1.1);
+}
+.combine-box{
+    width: 30vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    transition: transform .2s; 
+}
+
+.combine-box:nth-child(1){
+    margin-left: 20px;
+}
+
+.box-1-head{
+    font-size: clamp(10px,25px,25px);
+   text-align: center;
+   margin-top: 10px;
+}
+.box-2-head{
+    font-size: clamp(10px,25px,55px);
+    text-align: center;
+}
+
+.box-3-head{
+    font-size: clamp(10px,25px,25px);
+    text-align: center;
+}
+
+.box-btn{
+    text-align: center;
+}
+
+.box1-btn button{
+    border-radius: 20px;
+}
+
+.box-icons{
+    text-align: center;
+    height:112px;
+    /* border: 2px solid red; */
+}
+.box1-pic{
+    width: 150px;
+    height: 110px;
+}
+
+/* .box3-pic{
+    /* margin-left: 20px; */
+
+
+.box-para{
+    margin-top: 20px;
+}
+
+.service-hover{
+    transition: transform .2s;
+}
+.service-hover:hover{
+    transform: scale(1.1);
+    }
+
+    .service-box3{
+    
+    }
+
+
+ 

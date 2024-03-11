@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Home {
+  display: flex;
+  margin-top: 5px;
+  padding: 15px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(232, 232, 232);
+}
+
+.home-para-hover {
+  transition: transform 0.6s ease-in-out;
+}
+
+.home-para-hover:hover {
+  transform: scale(1.05);
+}
+.personal-data {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  justify-content: center;
+  place-items: center;
+  background-color: #2999ee;
+  height: 70vh;
+  width: 60%;
+}
+
+.para-p:nth-child(3) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  margin-top: -12px;
+}
+
+.para-p:nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+.para-p:nth-child(4) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  margin-top: -10px;
+}
+
+.para-p:nth-child(2) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  font-size: 25px;
+  color: white;
+  margin-top: -20px;
+}
+
+.hero-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+/* .hero-section img:hover{
+  transform: scale(1.1);
+} */
+.hero-section img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 30px;
+  /* transition: transform .2s; */
+}
+
+.hero-section {
+  width: 40vw;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+
+.para-p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: white;
+  margin-left: 50px;
+}
+
+/* .para-p span{
+  font-size: 25px;
+  font-weight: 600;
+  /* border-bottom: 2px solid white; */
+ */
+
+.para {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.social-icons {
+  display: flex;
+  /* border: 2px solid red; */
+
+  justify-content: center;
+  /* height: 106px;
+  width: 280px; */
+}
+
+.hero-icon img {
+  height: 55px;
+  width: 55px;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+
+.hero-icon img:hover {
+  transform: scale(1.1);
+}
+
+.hire-btn {
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.hire-btn button {
+  border-radius: 15px;
+  padding: 12px;
+  margin-top: -20px;
+}
+
+.home-hover {
+  transition: transform 0.2s;
+}
+
+.home-hover:hover {
+  transform: scale(1.1);
+}
